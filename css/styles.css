@@ -89,6 +89,14 @@ nav ul li a:hover {
     width: 800px;
 }
 
-.red {
+.intro {
     border: 1px solid red;
+    margin: 150px 0;
+    padding: 0 390px;
+    text-align: center;
+    
+}
+
+.banner {
+    margin-bottom: 30px;
 }
