@@ -1,65 +1,159 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portafolio Ricardo G</title>
-        <link rel="shortcut icon" href="./assets/images/íconos advertencias-01.svg" type="image/png" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"rel="stylesheet">
-        <link rel="stylesheet" href="./css/styles.css">
-    </head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Ricardo G</title>
+    <link rel="shortcut icon" href="./assets/images/iconos advertencias-01.svg" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
 
-    <body>
-        <header class="cabecera">
-            <a href="#"><img class="logo" src="./assets/images/íconos advertencias-01.svg" alt="logo" srcset=""> </a>
-            <nav>
-                <ul>
-                    <li><a class="link" href="#">Inicio</a></li>
-                    <li><a class="link" href="./pages/proyectos.html">Proyectos</a></li>
-                    <li><a class="link" href="./pages/sobremi.html">Sobre Mi</a></li>
-                    <li><a class="link" href="./pages/contacto.html">Contacto</a></li>
-                    <li><a class="link" href="./pages/migato.html">Mi Gato</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <main class="contenidoPrincipal">
-            <section class="seccionPrincipal"></section>
-                <h1 class="tituloPrincipal">Hola! Bienvenido a mi Portafolio</h1>
-                <p class="parrafoPrincipal">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non ipsa dolores, voluptatum minus quia possimus at necessitatibus libero pariatur modi consequuntur voluptates sint facilis praesentium deserunt, odio facere cum magni.</p>
-            </section>
-            <section class="banner">
-                <div>
-                    <img class="gato1" src="./assets/images/gato1.png" alt="Gato 1">
-                    <h2>Proyecto 1</h2>
-                    <p class="parrafoPrincipal">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque interdum rutrum sodales. Nullam mattis fermentum libero, non volutpat.</p>
-                </div>
-                <div>
-                    <img src="./assets/images/gato llorando.jpeg" alt="Gato 2">
-                    <h2>Proyecto 2</h2>
-                    <p class="parrafoPrincipal">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Pellentesque interdum rutrum sodales. Nullam mattis fermentum libero, non volutpat.</p>
-                </div>
-                <div class="">
-                    <img src="./assets/images/gato 3.jpeg" alt="Gato 3">
-                    <h2>Proyecto 3</h2>
-                    <p class="parrafoPrincipal">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque interdum rutrum sodales. Nullam mattis fermentum libero, non volutpat.</p>
-                </div>
-            </section>
-
-        </main>
-        <footer>
-            <ul class="centered">
-                <li><a href="https://www.instagram.com/nounricardo/">Instagram</a></li>
-                <li><a href="https://www.instagram.com/nounricardo/">Behance</a></li>
-                <li><a href="https://www.instagram.com/nounricardo/">Whatsapp</a></li>
+  <body>
+    <header class="cabecera">
+      <nav class="navbar navbar-expand-lg align-content-center">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/images/logo ric-02.svg" alt="Logo" width="200" height="152" class="d-inline-block align-text-top">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav justify-content-center w-100">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/proyectos.html">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/sobremi.html">Sobre Mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/migato.html">Mi Gato</a>
+              </li>
             </ul>
-            <p class="centered">2022 Todos los derechos reservados</p>
-        </footer>
-    </body>
+          </div>
+        </div>
+      </nav>   
+    </header>
+
+  <main>
+    <div class="col-md-12 col-sm-12 align-items-center justify-content-center red">
+      <section>
+        <h2>Ricardo Goñía es un diseñador, productor y solucionador de problemas que vive y crea en la ciudad de Santiago.</h2>
+      </section>
+    </div>
+      <section class="banner">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 d-flex flex-column">
+              <img src="./assets/images/IMG_4374.jpg"random">
+          </div>
+          <div class="col-md-6 col-sm-12  d-flex flex-column  align-items-center justify-content-center">
+              <div>
+                <h2>Cerveza Cabezona</h2>
+                  <p>Cervecería independiente, editorial, packaging</p>
+              </div>
+          </div>
+      </section>  
+      <section class="banner">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 d-flex flex-column ">
+              <img src="./assets/images/IMG_4374.jpg"random">
+          </div>
+          <div class="col-md-6 col-sm-12  d-flex flex-column  align-items-center justify-content-center">
+              <div>
+                <h2>Cerveza Cabezona</h2>
+                  <p>Cervecería independiente, editorial, packaging</p>
+              </div>
+          </div>
+      </section> 
+      <section class="banner">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 d-flex flex-column">
+              <img src="./assets/images/IMG_4374.jpg"random">
+          </div>
+          <div class="col-md-6 col-sm-12  d-flex flex-column  align-items-center justify-content-center">
+              <div>
+                <h2>Cerveza Cabezona</h2>
+                  <p>Cervecería independiente, editorial, packaging</p>
+              </div>
+          </div>
+      </section> 
+
+
+
+        <!--<div>
+              <img class="gato1" src="./assets/images/gato1.png" alt="Gato 1">
+              <h2>Proyecto 1</h2>
+              <p class="parrafoPrincipal">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque interdum rutrum sodales. Nullam mattis fermentum libero, non volutpat.</p>
+          </div>
+          <div>
+              <img src="./assets/images/gato llorando.jpeg" alt="Gato 2">
+              <h2>Proyecto 2</h2>
+              <p class="parrafoPrincipal">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Pellentesque interdum rutrum sodales. Nullam mattis fermentum libero, non volutpat.</p>
+          </div>
+          <div class="">
+              <img src="./assets/images/gato 3.jpeg" alt="Gato 3">
+              <h2>Proyecto 3</h2>
+              <p class="parrafoPrincipal">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque interdum rutrum sodales. Nullam mattis fermentum libero, non volutpat.</p>
+          </div>
+      </section>-->
+
+
+  </main>
+    <footer>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <div>
+              <symbol id="facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+              </symbol>
+            </div>
+          </div>
+        </div>
+      </nav>
+          
+    </footer>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
 
 </html>
 

@@ -4,13 +4,13 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 62,5%;
-    font-family: 'Quicksand', sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 body {
-    background-image: url(../assets/images/fondoportafolio.png);
+    
     padding: 30px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .cabecera {
@@ -19,7 +19,7 @@ body {
 }
 
 .logo {
-    fill: white;
+    fill: rgb(128, 59, 59);
     width: 80px;
     position: absolute;
     left: 20px;
@@ -37,7 +37,7 @@ li {
 }
 
 .tituloPrincipal {
-    color: rgb(255, 255, 255);
+    color: rgb(2, 2, 2);
     font-weight: 700;
     font-size: 3rem;
     text-align: center;
@@ -87,4 +87,8 @@ nav ul li a:hover {
 
 .fotoDom {
     width: 800px;
+}
+
+.red {
+    border: 1px solid red;
 }
