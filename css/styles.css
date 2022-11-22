@@ -4,7 +4,13 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 62,5%;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Facundo';
+    
+}
+
+@font-face {
+    src: url(/assets/fonts/Facundo-Regular.ttf);
+    font-family: 'Facundo';
 }
 
 body {
@@ -87,7 +93,6 @@ nav ul li a:hover {
 }
 
 .intro {
-    border: 1px solid red;
     margin: 150px 0;
     padding: 0 390px;
     text-align: center;
