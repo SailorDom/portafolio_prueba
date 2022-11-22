@@ -4,14 +4,10 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 62,5%;
-    font-family: 'Facundo';
+    font-family: 'Helvetica';
     
 }
 
-@font-face {
-    src: url(/assets/fonts/Facundo-Regular.ttf);
-    font-family: 'Facundo';
-}
 
 body {
     
