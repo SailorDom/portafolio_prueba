@@ -1,3 +1,4 @@
+$colorTituloContacto : rgb(234, 87, 168);
 
 * {
     margin: 0;
@@ -8,15 +9,11 @@
     
 }
 
-
-
 body {
     
     padding: 30px;
     color: rgb(0, 0, 0);
 }
-
-
 
 .logo {
     fill: rgb(128, 59, 59);
@@ -28,7 +25,6 @@ body {
 li {
     display: inline;
 }
-
 
 .link {
     text-decoration: none;
@@ -100,3 +96,30 @@ nav ul li a:hover {
     margin-bottom: 30px;
 }
 
+main {
+    .tituloPrincipalContacto {
+        color: $colorTituloContacto
+    }
+    p {
+        color: blue ;
+    }
+    section {
+        border: 1px solid red;
+        form {
+            div {
+                .inputNombre {
+                    color: lightgreen;
+                }
+                .inputContrasena {
+                    margin: 100px;
+                }
+
+            }
+            .botonRosado {
+                background-color: $colorTituloContacto;
+                border: none;
+            }   
+        }
+    }
+
+}

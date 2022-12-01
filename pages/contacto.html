@@ -8,7 +8,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="../css/bootstrap.min.css">
-        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../sass/estilos.css">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
       </head>
     <body>
@@ -42,27 +42,24 @@
                 </div>
               </div>
             </nav>   
-          </header>
+        </header>
     
         <main>
-            <h1 class ="tituloPrincipal">Contacto</h1>
+            <h1 class ="tituloPrincipalContacto">Contacto</h1>
             <p>Hablemos :3</p>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. ?</p>
             <section class="formulario">
                 <form action="">
-                    <div>
-                        <input type="text" placeholder="Nombre *" required>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control inputNombre" placeholder="Nombre" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
-                    <div>
-                        <input type="mail" placeholder="Mail *" required>
+                    <div class="input-group mb-3">
+                        <input type="password" class="form-control inputContrasena" placeholder="Contraseña" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
-
-                    <div>
-                        <input type="text" placeholder="Escribeme un mensaje" required>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Mándame un mensaje" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
-                    <div>
-                        <input class="boton" type="submit" value="Enviar Ahora">
-                    </div>
+                    <button type="button" class="btn btn-primary botonRosado">Enviar</button>
                 </form>
             </section>
             <div>

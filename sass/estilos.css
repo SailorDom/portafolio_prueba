@@ -88,4 +88,24 @@ nav ul li a:hover {
 
 .banner {
   margin-bottom: 30px;
+}
+
+main .tituloPrincipalContacto {
+  color: rgb(234, 87, 168);
+}
+main p {
+  color: blue;
+}
+main section {
+  border: 1px solid red;
+}
+main section form div .inputNombre {
+  color: lightgreen;
+}
+main section form div .inputContrasena {
+  margin: 100px;
+}
+main section form .botonRosado {
+  background-color: rgb(234, 87, 168);
+  border: none;
 }/*# sourceMappingURL=estilos.css.map */
