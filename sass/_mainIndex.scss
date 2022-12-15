@@ -1,0 +1,26 @@
+@import "mixins";
+
+.mainIndex {
+    .introContainer {
+        .tituloIntro {
+            color: deeppink;     
+        }
+        .textoIntro {
+            .botonContainerIntro {
+                .btn-primary {
+                    @include botonRosado
+                }
+            }
+        }
+    }
+    .banner {
+        .row {
+            .bannerTextContainer {
+                a {
+                    @include botonRosado
+                }
+            }  
+        }
+    }
+   
+}

@@ -1,31 +1,9 @@
+@import "mixins";
+@import "resets";
+@import "header";
+@import "mainIndex";
+@import "footer";
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 62,5%;
-    font-family: 'Helvetica';
-    
-}
-
-
-
-li {
-    display: inline;
-}
-
-
-
-.centered {
-    text-align: center;
-}
-
-.boton {
-    font-size: 1.2rem;
-    padding: 10px;
-    border-radius: 8px;
-    margin: 5px 0;
-}
 
 .formulario {
     text-align: center;
@@ -33,15 +11,7 @@ li {
     margin: auto   
 }
 
-.fotoDom {
-    width: 800px;
-}
 
 
 
-.boton {
-    font-size: 1.2rem;
-    padding: 10px;
-    border-radius: 8px;
-    margin: 5px 0;
-}
+
