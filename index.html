@@ -1,65 +1,109 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portafolio Ricardo G</title>
-        <link rel="shortcut icon" href="./assets/images/íconos advertencias-01.svg" type="image/png" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"rel="stylesheet">
-        <link rel="stylesheet" href="./css/styles.css">
-    </head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Inicio del portafolio del disenador gráfico Ricardo Gonia">
+    <meta name="keywords"content="HTML, ASP, JS, META, PORTAFOLIO, DISENO, DISENO GRAFICO">
+    <title>Portafolio Ricardo G</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
 
-    <body>
-        <header class="cabecera">
-            <a href="#"><img class="logo" src="./assets/images/íconos advertencias-01.svg" alt="logo" srcset=""> </a>
-            <nav>
-                <ul>
-                    <li><a class="link" href="#">Inicio</a></li>
-                    <li><a class="link" href="./pages/proyectos.html">Proyectos</a></li>
-                    <li><a class="link" href="./pages/sobremi.html">Sobre Mi</a></li>
-                    <li><a class="link" href="./pages/contacto.html">Contacto</a></li>
-                    <li><a class="link" href="./pages/migato.html">Mi Gato</a></li>
+  <body>
+    <header class="container-fluid header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid mau">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/images/logo ric-02.svg" alt="Logo" width="200" height="152" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse linksContainer" id="navbarNav">
+                <ul class="navbar-nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/proyectos.html">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/sobremi.html">Sobre Mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    </li>
                 </ul>
-            </nav>
-        </header>
+            </div>
+            </div>
+        </nav>   
+    </header>
+  <main class="mainIndex">
+    <section class="banner">
+        <div class="row">
+            <!-- TODO: Pregntar margenes entre imagenes -->
+            <div class="col-md-6 col-sm-12 d-flex flex-column bannerImgContainer">
+                <a href="./pages/projects/cervezaCabezona.html">
+                    <img class="img-responsive" src="./assets/images/IMG_4374.jpg" alt="">
+                </a>
+                <div class="overlay">
+                    <p class="text">Cerveza Cabezona</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 d-flex flex-column bannerImgContainer">
+                <a href="./pages/projects/composite.html">
+                    <img src="./assets/images/composite.jpg" >
+                </a>
+                <div class="overlay">
+                    <p class="text">Composite</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 d-flex flex-column bannerImgContainer">
+                <a href="./pages/projects/ruca.html">
+                    <img src="./assets/images/ruca.jpg" >
+                </a>
+                <div class="overlay">
+                    <p class="text">Ruca</p>
+                </div>
+            </div>
+        </div>
+    </section> 
+  </main>
+   
+    <footer>
+        <div class="container footerContainer">
+            <div class="row">
+                <ul class="containerRrss"> 
+                    <li>
+                        <a href=https://www.linkedin.com/in/ricardo-francisco-go%C3%B1ia-gahona-58618382/=ssl target="_blank">
+                            <img src="./assets/images/linkedin.svg" alt="linkedin "width="40" height="40">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://api.whatsapp.com/send/?phone=56997963104&text&type=phone_number&app_absent=0" target="_blank">
+                            <img src="./assets/images/whatsapp.svg" alt="linkedin "width="40" height="40">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <p class="footerText">
+                    2023 - Diseñado por Ricardo 
+                    <span>
+                        <img src="./assets/images/favicon.svg" alt="linkedin "width="30" height="30">
+                    </span>
+                    Todos los derechos reservados
+                </p>
+                
+            </div>
+        </div>
+    </footer>
 
-        <main class="contenidoPrincipal">
-            <section class="seccionPrincipal"></section>
-                <h1 class="tituloPrincipal">Hola! Bienvenido a mi Portafolio</h1>
-                <p class="parrafoPrincipal">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non ipsa dolores, voluptatum minus quia possimus at necessitatibus libero pariatur modi consequuntur voluptates sint facilis praesentium deserunt, odio facere cum magni.</p>
-            </section>
-            <section class="banner">
-                <div>
-                    <img class="gato1" src="./assets/images/gato1.png" alt="Gato 1">
-                    <h2>Proyecto 1</h2>
-                    <p class="parrafoPrincipal">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque interdum rutrum sodales. Nullam mattis fermentum libero, non volutpat.</p>
-                </div>
-                <div>
-                    <img src="./assets/images/gato llorando.jpeg" alt="Gato 2">
-                    <h2>Proyecto 2</h2>
-                    <p class="parrafoPrincipal">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Pellentesque interdum rutrum sodales. Nullam mattis fermentum libero, non volutpat.</p>
-                </div>
-                <div class="">
-                    <img src="./assets/images/gato 3.jpeg" alt="Gato 3">
-                    <h2>Proyecto 3</h2>
-                    <p class="parrafoPrincipal">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque interdum rutrum sodales. Nullam mattis fermentum libero, non volutpat.</p>
-                </div>
-            </section>
-
-        </main>
-        <footer>
-            <ul class="centered">
-                <li><a href="https://www.instagram.com/nounricardo/">Instagram</a></li>
-                <li><a href="https://www.instagram.com/nounricardo/">Behance</a></li>
-                <li><a href="https://www.instagram.com/nounricardo/">Whatsapp</a></li>
-            </ul>
-            <p class="centered">2022 Todos los derechos reservados</p>
-        </footer>
-    </body>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
 
 </html>
 

@@ -1,90 +1,114 @@
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 62,5%;
-    font-family: 'Quicksand', sans-serif;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62,5%;
+  font-family: 'Helvetica'; }
 
-body {
-    background-image: url(../assets/images/fondoportafolio.png);
-    padding: 30px;
-    color: white;
-}
+header .navbar .mau .linksContainer {
+  justify-content: flex-end; }
+  header .navbar .mau .linksContainer ul li .nav-link {
+    color: deeppink; }
 
-.cabecera {
-    text-align: right;
-    padding: 20px;
-}
+.mainIndex .introContainer .tituloIntro {
+  color: deeppink; }
 
-.logo {
-    fill: white;
-    width: 80px;
+.mainIndex .introContainer .textoIntro .botonContainerIntro .btn-primary {
+  background-color: deeppink;
+  border-color: deeppink; }
+  .mainIndex .introContainer .textoIntro .botonContainerIntro .btn-primary:hover {
+    background-color: deeppink; }
+
+.mainIndex .banner .row .bannerImgContainer {
+  position: relative; }
+  .mainIndex .banner .row .bannerImgContainer a {
+    background-color: #000; }
+    .mainIndex .banner .row .bannerImgContainer a img {
+      opacity: 1;
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: .5s ease; }
+  .mainIndex .banner .row .bannerImgContainer .overlay {
+    transition: .5s ease;
+    opacity: 0;
     position: absolute;
-    left: 20px;
-}
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    z-index: 99; }
+    .mainIndex .banner .row .bannerImgContainer .overlay .text {
+      color: #fff;
+      font-size: 16px;
+      padding: 16px 32px; }
+  .mainIndex .banner .row .bannerImgContainer :hover img {
+    opacity: 0.3; }
 
-li {
-    display: inline;
-}
+.mainIndex .banner .row :hover .overlay {
+  opacity: 1; }
 
+.mainIndex .banner .row .bannerTextContainer a {
+  background-color: deeppink;
+  border-color: deeppink; }
+  .mainIndex .banner .row .bannerTextContainer a:hover {
+    background-color: deeppink; }
 
-.link {
-    text-decoration: none;
-    font-size: 1.5rem;
-    margin-left: 20px;
-}
+footer .footerContainer {
+  color: deeppink;
+  margin-top: 10px;
+  border-top: 1px solid deeppink; }
 
-.tituloPrincipal {
-    color: rgb(255, 255, 255);
-    font-weight: 700;
-    font-size: 3rem;
-    text-align: center;
-    line-height: 1.6;
-    text-align: center;
-}
+footer .row .containerRrss {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px; }
+  footer .row .containerRrss li {
+    list-style: none;
+    margin: 0 15px; }
 
-.parrafoPrincipal {
-    padding: 30px 0;
-}
+footer .row .footerText {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px; }
+  footer .row .footerText span {
+    position: relative;
+    top: -5px;
+    padding: 0 10px; }
 
-nav ul {
-    list-style-type: none;
-    margin: 30px;
-}
+.proyects .proyectsIntro .tituloIntro {
+  color: deeppink; }
 
-nav ul li a {
-    text-decoration: none;
-    color: #000000 ;
-}
+.proyects .proyectsIntro .textoIntro .botonContainerIntro .btn-primary {
+  background-color: deeppink;
+  border-color: deeppink; }
+  .proyects .proyectsIntro .textoIntro .botonContainerIntro .btn-primary:hover {
+    background-color: deeppink; }
 
-nav ul li a:hover {
-    color: rgb(255, 255, 255);
+.proyects .proyectsImages .row .imgContainer img {
+  max-width: 100%; }
 
-}
+.proyects .proyectsImages .row .imgContainer img:hover {
+  opacity: 0.5;
+  position: relative; }
 
-.gato1 {
-    width: 250px;
-}
-
-.centered {
-    text-align: center;
-}
-
-.boton {
-    font-size: 1.2rem;
-    padding: 10px;
-    border-radius: 8px;
-    margin: 5px 0;
-}
+.proyects .proyectsImages .row .bannerTextContainer a {
+  background-color: deeppink;
+  border-color: deeppink; }
+  .proyects .proyectsImages .row .bannerTextContainer a:hover {
+    background-color: deeppink; }
 
 .formulario {
-    text-align: center;
-    width: 30%;
-    margin: auto   
-}
+  text-align: center;
+  width: 30%;
+  margin: auto; }
 
-.fotoDom {
-    width: 800px;
-}
+.botonRosado {
+  background-color: deeppink;
+  border-color: deeppink; }
+  .botonRosado:hover {
+    background-color: deeppink; }
+
+.tituloPink {
+  color: deeppink; }

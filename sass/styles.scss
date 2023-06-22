@@ -1,0 +1,20 @@
+@import "mixins";
+@import "resets";
+@import "header";
+@import "mainIndex";
+@import "footer";
+@import "projects";
+
+.formulario {
+    text-align: center;
+    width: 30%;
+    margin: auto   
+}
+
+.botonRosado {
+    @include botonRosado
+}
+
+.tituloPink {
+    color: deeppink;
+}

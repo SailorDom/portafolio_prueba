@@ -1,0 +1,7 @@
+@mixin botonRosado {
+    background-color: deeppink;
+    border-color: deeppink;
+    &:hover{
+        background-color: deeppink;
+    }
+}

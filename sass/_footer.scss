@@ -1,0 +1,30 @@
+footer {
+    .footerContainer {
+        color: deeppink;
+        margin-top: 10px;
+        border-top: 1px solid deeppink;
+    }
+    .row {
+        .containerRrss {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding-top: 10px;
+            
+            li {
+                list-style: none;
+                margin: 0 15px;
+            }
+        }
+        .footerText {
+            display: flex;
+            justify-content: center;
+            margin-top: 25px;
+            span{
+                position: relative;
+                top: -5px;
+                padding: 0 10px;
+            }
+        }
+    }
+}

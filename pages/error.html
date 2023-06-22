@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Pagina de contacto con Ricardo Gonia"> 
         <meta name="keywords" content="HTML, ASP, JS, META, PORTAFOLIO, DISENO, DISENO GRAFICO">
-        <title>Portafolio Ricardo G</title>
+        <title>Página de Error 404</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="shortcut icon" href="../assets/images/favicon.svg" type="image/png">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,47 +15,51 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     </head>
     <body>
-        <header class="container-fluid header">
+        <header>
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid mau">
-                <a class="navbar-brand" href="#">
-                    <img src="../assets/images/logo ric-02.svg" alt="Logo" width="200" height="152" class="d-inline-block align-text-top">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse linksContainer" id="navbarNav">
-                    <ul class="navbar-nav justify-content-end">
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/proyectos.html">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/sobremi.html">Sobre Mi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="../assets/images/logo ric-02.svg" alt="Logo" width="200" height="152" class="d-inline-block align-text-top">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse linksContainer" id="navbarNav1">
+                        <ul class="navbar-nav justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./proyectos.html">Proyectos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./sobremi.html">Sobre Mi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./migato.html">Mi Gato</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>   
         </header>
+    
         <main>
-            <div class="px-4 py-5 my-5 text-center">
-                <h1 class="display-5 fw-bold animate__animated animate__flipInX animate__slower tituloPink">Contacto</h1>
-                <div class="col-lg-6 mx-auto">
-                    <p class="lead mb-4">Mándame un mensaje y hablemos</p>
+            <div class="d-flex align-items-center justify-content-center vh-100">
+                <div class="text-center">
+                    <h1 class="display-1 fw-bold tituloPink ">404</h1>
+                    <p class="fs-3"> <span class="text-pink">Oops!</span> Error</p>
+                    <p class="lead">
+                        La página que buscas no existe :(
+                      </p>
+                    <a href="../index.html" class="btn btn-primary botonRosado">Volver</a>
                 </div>
             </div>
-            <section class="form container">
-                <form>
-                    <input type="text" class="form-control" id="name"  placeholder="Nombre">
-                    <input type="email" class="form-control" id="email" placeholder="Email">
-                    <textarea class="form-control" id="message" rows="3" placeholder="Escríbeme un mensaje"></textarea>
-                    <button type="submit" class="btn btn-primary">Enviar Ahora</button>
-                  </form>
-            </section>
         </main>
+    
         <footer>
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid footerContainer ">
