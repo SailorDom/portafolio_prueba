@@ -5,8 +5,10 @@
   font-size: 62,5%;
   font-family: 'Helvetica'; }
 
-header .navbar .mau .linksContainer ul li .nav-link {
-  color: deeppink; }
+header .navbar .mau .linksContainer {
+  justify-content: flex-end; }
+  header .navbar .mau .linksContainer ul li .nav-link {
+    color: deeppink; }
 
 .mainIndex .introContainer .tituloIntro {
   color: deeppink; }
@@ -17,20 +19,85 @@ header .navbar .mau .linksContainer ul li .nav-link {
   .mainIndex .introContainer .textoIntro .botonContainerIntro .btn-primary:hover {
     background-color: deeppink; }
 
+.mainIndex .banner .row .bannerImgContainer {
+  position: relative; }
+  .mainIndex .banner .row .bannerImgContainer a {
+    background-color: #000; }
+    .mainIndex .banner .row .bannerImgContainer a img {
+      opacity: 1;
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: .5s ease; }
+  .mainIndex .banner .row .bannerImgContainer .overlay {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    z-index: 99; }
+    .mainIndex .banner .row .bannerImgContainer .overlay .text {
+      color: #fff;
+      font-size: 16px;
+      padding: 16px 32px; }
+  .mainIndex .banner .row .bannerImgContainer :hover img {
+    opacity: 0.3; }
+
+.mainIndex .banner .row :hover .overlay {
+  opacity: 1; }
+
 .mainIndex .banner .row .bannerTextContainer a {
   background-color: deeppink;
   border-color: deeppink; }
   .mainIndex .banner .row .bannerTextContainer a:hover {
     background-color: deeppink; }
 
-footer nav .nombreFooter {
-  color: deeppink; }
+footer .footerContainer {
+  color: deeppink;
+  margin-top: 10px;
+  border-top: 1px solid deeppink; }
 
-footer nav .row .containerRrss {
-  display: flex; }
-  footer nav .row .containerRrss li {
+footer .row .containerRrss {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px; }
+  footer .row .containerRrss li {
     list-style: none;
     margin: 0 15px; }
+
+footer .row .footerText {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px; }
+  footer .row .footerText span {
+    position: relative;
+    top: -5px;
+    padding: 0 10px; }
+
+.proyects .proyectsIntro .tituloIntro {
+  color: deeppink; }
+
+.proyects .proyectsIntro .textoIntro .botonContainerIntro .btn-primary {
+  background-color: deeppink;
+  border-color: deeppink; }
+  .proyects .proyectsIntro .textoIntro .botonContainerIntro .btn-primary:hover {
+    background-color: deeppink; }
+
+.proyects .proyectsImages .row .imgContainer img {
+  max-width: 100%; }
+
+.proyects .proyectsImages .row .imgContainer img:hover {
+  opacity: 0.5;
+  position: relative; }
+
+.proyects .proyectsImages .row .bannerTextContainer a {
+  background-color: deeppink;
+  border-color: deeppink; }
+  .proyects .proyectsImages .row .bannerTextContainer a:hover {
+    background-color: deeppink; }
 
 .formulario {
   text-align: center;

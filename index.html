@@ -28,9 +28,6 @@
             <div class="collapse navbar-collapse linksContainer" id="navbarNav">
                 <ul class="navbar-nav justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="./pages/proyectos.html">Proyectos</a>
                     </li>
                     <li class="nav-item">
@@ -39,88 +36,70 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/migato.html">Mi Gato</a>
-                    </li>
                 </ul>
             </div>
             </div>
         </nav>   
     </header>
-
   <main class="mainIndex">
-    <div class="px-4 py-5 my-5 text-center introContainer">
-      <h1 class="display-5 fw-bold animate__animated animate__flipInX animate__slower tituloIntro">Hola</h1>
-      <div class="col-lg-6 mx-auto textoIntro">
-        <p class="lead mb-4"> Me llamo Ricardo Goñía y soy un diseñador, productor y solucionador de problemas que vive y crea en la ciudad de Santiago de Chile</p>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center botonContainerIntro">
-            <a href="./pages/error.html">
-                <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Hablemos</button>
-            </a> 
-        </div>
-      </div>
-    </div>
-    
     <section class="banner">
         <div class="row">
-            <div class="col-md-6 col-sm-12 d-flex flex-column">
-              <img src="./assets/images/IMG_4374.jpg"random">
+            <!-- TODO: Pregntar margenes entre imagenes -->
+            <div class="col-md-6 col-sm-12 d-flex flex-column bannerImgContainer">
+                <a href="./pages/projects/cervezaCabezona.html">
+                    <img class="img-responsive" src="./assets/images/IMG_4374.jpg" alt="">
+                </a>
+                <div class="overlay">
+                    <p class="text">Cerveza Cabezona</p>
+                </div>
             </div>
-            <div class="col-md-6 col-sm-12  d-flex flex-column  align-items-center justify-content-center bannerTextContainer">
-                <h2>Cerveza Cabezona</h2>
-                <p>Cervecería independiente, editorial, packaging</p>
-                <a class="btn btn-primary" href="./pages/proyectos.html" role="button">Link</a>
+            <div class="col-md-6 col-sm-12 d-flex flex-column bannerImgContainer">
+                <a href="./pages/projects/composite.html">
+                    <img src="./assets/images/composite.jpg" >
+                </a>
+                <div class="overlay">
+                    <p class="text">Composite</p>
+                </div>
             </div>
-        </div>
-    </section>  
-      
-    <section class="banner">
-        <div class="row">
-          <div class="col-md-6 col-sm-12 d-flex flex-column">
-              <img src="./assets/images/composite.jpg"random">
-          </div>
-          <div class="col-md-6 col-sm-12  d-flex flex-column  align-items-center justify-content-center bannerTextContainer">
-                <h2>Composite</h2>
-                <p>Materiales, reciclaje, packaging</p>
-                <a class="btn btn-primary" href="./pages/proyectos.html" role="button">Link</a>
-            </div>
-        </div>
-    </section> 
-    <section class="banner">
-        <div class="row">
-            <div class="col-md-6 col-sm-12 d-flex flex-column">
-                <img src="./assets/images/ruca.jpg"random">
-            </div>
-            <div class="col-md-6 col-sm-12  d-flex flex-column  align-items-center justify-content-center bannerTextContainer">
-                <h2>Ruca</h2>
-                <p>Mobiliario, madera, packaging</p>
-                <a class="btn btn-primary" href="./pages/proyectos.html" role="button">Link</a>
+            <div class="col-md-6 col-sm-12 d-flex flex-column bannerImgContainer">
+                <a href="./pages/projects/ruca.html">
+                    <img src="./assets/images/ruca.jpg" >
+                </a>
+                <div class="overlay">
+                    <p class="text">Ruca</p>
+                </div>
             </div>
         </div>
     </section> 
   </main>
    
     <footer>
-        
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid nombreFooter">
-                <p> Diseñado por Ricardo Goñia</p>
-                <div class="row">
-                    <ul class="containerRrss"> 
-                        <li>
-                            <a href=https://www.linkedin.com/in/ricardo-francisco-go%C3%B1ia-gahona-58618382/=ssl target="_blank">
-                                <img src="./assets/images/linkedin.svg" alt="linkedin "width="40" height="40">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://api.whatsapp.com/send/?phone=56997963104&text&type=phone_number&app_absent=0" target="_blank">
-                                <img src="./assets/images/whatsapp.svg" alt="linkedin "width="40" height="40">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+        <div class="container footerContainer">
+            <div class="row">
+                <ul class="containerRrss"> 
+                    <li>
+                        <a href=https://www.linkedin.com/in/ricardo-francisco-go%C3%B1ia-gahona-58618382/=ssl target="_blank">
+                            <img src="./assets/images/linkedin.svg" alt="linkedin "width="40" height="40">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://api.whatsapp.com/send/?phone=56997963104&text&type=phone_number&app_absent=0" target="_blank">
+                            <img src="./assets/images/whatsapp.svg" alt="linkedin "width="40" height="40">
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </nav>
+            <div class="row">
+                <p class="footerText">
+                    2023 - Diseñado por Ricardo 
+                    <span>
+                        <img src="./assets/images/favicon.svg" alt="linkedin "width="30" height="30">
+                    </span>
+                    Todos los derechos reservados
+                </p>
+                
+            </div>
+        </div>
     </footer>
 
     <script src="./js/bootstrap.bundle.min.js"></script>

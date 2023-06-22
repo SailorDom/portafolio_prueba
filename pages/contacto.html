@@ -15,38 +15,31 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     </head>
     <body>
-        <header>
+        <header class="container-fluid header">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid mau">
-                    <a class="navbar-brand" href="../index.html">
-                        <img src="../assets/images/logo ric-02.svg" alt="Logo" width="200" height="152" class="d-inline-block align-text-top">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse linksContainer" id="navbarNav1">
-                        <ul class="navbar-nav justify-content-end">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./proyectos.html">Proyectos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./sobremi.html">Sobre Mi</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./contacto.html">Contacto</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./migato.html">Mi Gato</a>
-                            </li>
-                        </ul>
-                    </div>
+                <a class="navbar-brand" href="#">
+                    <img src="../assets/images/logo ric-02.svg" alt="Logo" width="200" height="152" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse linksContainer" id="navbarNav">
+                    <ul class="navbar-nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/proyectos.html">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/sobremi.html">Sobre Mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
                 </div>
             </nav>   
         </header>
-    
         <main>
             <div class="px-4 py-5 my-5 text-center">
                 <h1 class="display-5 fw-bold animate__animated animate__flipInX animate__slower tituloPink">Contacto</h1>
@@ -54,28 +47,18 @@
                     <p class="lead mb-4">Mándame un mensaje y hablemos</p>
                 </div>
             </div>
-            <section class="formulario">
-                <form action="">
-                    <div>
-                        <input type="text" placeholder="Nombre *" required>
-                    </div>
-                    <div>
-                        <input type="mail" placeholder="Mail *" required>
-                    </div>
-
-                    <div>
-                        <input type="text" placeholder="Escríbeme un mensaje" required>
-                    </div>
-                    <div>
-                        <input class="boton" type="submit" value="Enviar Ahora">
-                    </div>
-                </form>
+            <section class="form container">
+                <form>
+                    <input type="text" class="form-control" id="name"  placeholder="Nombre">
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                    <textarea class="form-control" id="message" rows="3" placeholder="Escríbeme un mensaje"></textarea>
+                    <button type="submit" class="btn btn-primary">Enviar Ahora</button>
+                  </form>
             </section>
         </main>
-    
         <footer>
             <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid nombreFooter">
+                <div class="container-fluid footerContainer ">
                     <p> Diseñado por Ricardo Goñia</p>
                     <div class="row">
                         <ul class="containerRrss"> 
