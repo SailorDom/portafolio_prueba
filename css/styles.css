@@ -93,11 +93,17 @@ footer .row .footerText {
   opacity: 0.5;
   position: relative; }
 
-.proyects .proyectsImages .row .bannerTextContainer a {
-  background-color: deeppink;
-  border-color: deeppink; }
-  .proyects .proyectsImages .row .bannerTextContainer a:hover {
-    background-color: deeppink; }
+.form-container {
+  display: flex;
+  justify-content: center; }
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px; }
+    .form-container form button {
+      background: deeppink;
+      border-color: deeppink; }
 
 .formulario {
   text-align: center;
